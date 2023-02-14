@@ -1,0 +1,171 @@
+.a,.b,.c,.d,.e{
+			border: 3px solid black;
+			width: 110%;
+
+		}
+
+		.a{
+			background-image: url('83.jpeg');
+			background-size: 100% 100%;
+			height: 100vh;
+		}
+
+		.b{
+			background-color: blanchedalmond;
+			height: 60vh;
+		}
+
+		.c{
+			background: linear-gradient(60deg,oldlace,chartreuse);
+			height: 50vh;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+		.d{
+			display: flex;
+			background: linear-gradient(45deg,indigo,bisque);
+			height: 40vh;
+			justify-content: space-around;
+		}
+
+		.child{
+			border: 3px dotted gold;
+			width: 30%;
+			height: 30vh;
+		}
+
+		.e{
+			height: 100vh;
+			background-color: salmon;
+			display: flex;
+		}
+
+		.btn{
+			width: 20%;
+			border: 3px lightgray;
+			background-color: darkcyan;
+		}
+
+		.vs{
+			width: 80%;
+			border: 3px burlywood;
+		}
+
+		.youtube{
+			width: 42%;
+			height: 7vh;
+			border-radius: 30px;
+			margin: 15px;
+			background-color: lightgray;
+		}
+
+		
+	
+
+		.b,.rm,.rt{
+			width: 100%;
+			height: 33vh;
+			border: 1px solid black;
+			background-color: saddlebrown;
+		}
+
+		.bt{
+			height: 4vh;
+			border-radius: 20px;
+			background-color: fuchsia;
+			float: left;			
+		}
+
+		.img{
+			width: 65%;
+			height: 21vh;
+			border: 1px solid black;
+			margin: auto;
+			background-color: lightcoral;			
+		}
+
+		.p{
+			width: 15%;
+			height: 18vh;
+			border: 1px solid black;
+			float: left;
+			margin: 14px;
+			background-color: deepskyblue;
+		}
+
+
+		.text{
+			width: 15%;
+			height: 3vh;
+			border: 1px solid black;
+			float: left;
+			margin: 14px;
+			background-color: slategrey;
+		}
+
+		.parent{
+			display: flex;
+			justify-content: space-around;
+		}
+
+
+		body{
+			margin: 0;
+		}
+
+		h2{
+			font-size: 28px;
+			color: darkcyan;
+		}
+
+		.navbar{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding-top: 40px;
+			padding-left: 10%;
+			padding-right: 10%;
+		}
+
+		span{
+			color: darkcyan;
+		}
+
+		nav ul li{
+			list-style-type: none;
+			display: inline-block;
+			padding: 10px 20px;
+		}
+
+		nav ul li a{
+			color: lightgray;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		nav ul li a:hover{
+			color: darkgrey;
+			transition: .3s;
+		}
+
+		.button{
+			border: none;
+			background: darkcyan;
+			padding: 12px 30px;
+			border-radius: 30px;
+			color: white;
+			font-weight: bold;
+			font-size: 15px;
+			transition: .4s;
+		}
+
+		.button:hover{
+			transform: scale(1.3);
+			cursor: pointer;
+		}
+
+
+
+
